@@ -332,7 +332,6 @@ Options:\n\
   -T, --timeout=N       network timeout, in seconds (default: 300)\n\
   -s, --scantime=N      upper bound on time spent scanning current work when\n\
                           long polling is unavailable, in seconds (default: 10)\n"
-      --submit-stale    ignore stale jobs checks, may create more rejected shares\n\						  
 #ifndef ORG
 "\
       --segwit          Agree with Segwit (Solo Mining only)\n"

@@ -26,7 +26,7 @@
   <PropertyGroup Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v120</PlatformToolset>
     <CLRSupport>false</CLRSupport>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -519,7 +519,7 @@
     <CudaCompile Include="lyra2\lyra2RE.cu" />
     <CudaCompile Include="lyra2\cuda_lyra2.cu" />
     <CudaCompile Include="lyra2\lyra2REv2.cu" />
-    <CudaCompile Include="lyra2\cuda_lyra2v2.cu" />
+    <CudaCompile Include="lyra2\cuda_lyra2v2.cu" >
       <MaxRegCount>255</MaxRegCount>
     </CudaCompile>
     <ClInclude Include="lyra2\cuda_lyra2_sm2.cuh" />
